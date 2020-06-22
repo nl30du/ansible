@@ -1,0 +1,7 @@
+---
+- name: test local 
+  hosts: localhost
+  
+  tasks:
+    - name: touch /root/xxx
+      shell: "echo 'oo' > /root/xxx"

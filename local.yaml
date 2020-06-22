@@ -1,6 +1,6 @@
 ---
 - name: test local 
-  hosts: localhost
+  hosts: own
   
   tasks:
     - name: touch /root/xxx
